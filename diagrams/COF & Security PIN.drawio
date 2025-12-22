@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Safari/605.1.15" version="29.2.7" pages="7">
   <diagram id="z4Pp_yvUTtWjB13GDCPp" name="final-01">
-    <mxGraphModel dx="1351" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
         <mxCell id="IY82DyguzzqmEU86OvHn-129" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
           <mxGeometry height="1766" width="852" x="54" y="996" as="geometry" />
         </mxCell>
-        <mxCell id="IY82DyguzzqmEU86OvHn-130" parent="IY82DyguzzqmEU86OvHn-129" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[hasSecurityPin = true]" vertex="1">
+        <mxCell id="IY82DyguzzqmEU86OvHn-130" parent="IY82DyguzzqmEU86OvHn-129" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[profile.hasSecurityPin = true]" vertex="1">
           <mxGeometry height="20" width="822" x="30" as="geometry" />
         </mxCell>
         <mxCell id="IY82DyguzzqmEU86OvHn-131" parent="IY82DyguzzqmEU86OvHn-129" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[hasSecurityPin = false]" vertex="1">
@@ -76,10 +76,10 @@
         <mxCell id="IY82DyguzzqmEU86OvHn-132" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
           <mxGeometry height="1992" width="872" x="44" y="780" as="geometry" />
         </mxCell>
-        <mxCell id="IY82DyguzzqmEU86OvHn-133" parent="IY82DyguzzqmEU86OvHn-132" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[device verified = true]" vertex="1">
+        <mxCell id="IY82DyguzzqmEU86OvHn-133" parent="IY82DyguzzqmEU86OvHn-132" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[device.verified = true]" vertex="1">
           <mxGeometry height="20" width="842" x="30" as="geometry" />
         </mxCell>
-        <mxCell id="IY82DyguzzqmEU86OvHn-134" parent="IY82DyguzzqmEU86OvHn-132" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[device verified = false]" vertex="1">
+        <mxCell id="IY82DyguzzqmEU86OvHn-134" parent="IY82DyguzzqmEU86OvHn-132" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[device.verified = false]" vertex="1">
           <mxGeometry height="4" width="872" y="128" as="geometry" />
         </mxCell>
         <mxCell id="IY82DyguzzqmEU86OvHn-135" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
@@ -236,8 +236,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IY82DyguzzqmEU86OvHn-158" edge="1" parent="1" source="IY82DyguzzqmEU86OvHn-110" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="IY82DyguzzqmEU86OvHn-109" value="Show popup options">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="IY82DyguzzqmEU86OvHn-158" edge="1" parent="1" source="IY82DyguzzqmEU86OvHn-110" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;endArrow=block;" target="IY82DyguzzqmEU86OvHn-109" value="Show popup (Verify with Email)">
+          <mxGeometry relative="1" x="0.0013" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="264" y="1693" />
             </Array>
